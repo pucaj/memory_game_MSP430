@@ -492,13 +492,6 @@ void menu(){
   if(B4){
     clearDisplay();
     SEND_CMD(DD_RAM_ADDR);
-    print("     Sawicka");
-    SEND_CMD(DD_RAM_ADDR2);
-    print("    Magdalena");
-
-    delayS(6);
-    clearDisplay();
-    SEND_CMD(DD_RAM_ADDR);
     print("     Daniel");
     SEND_CMD(DD_RAM_ADDR2);
     print("   Skorczynski");
